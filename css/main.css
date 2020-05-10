@@ -1,0 +1,50 @@
+body{
+    background-color: dodgerblue;
+}
+
+#main{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header{
+    overflow: hidden;
+}
+
+#logo{
+    width: 200px;
+    float: left;
+}
+
+#menu{
+    float: right;
+}
+
+#slide{
+    height: 200px;
+}
+
+#content{
+    overflow: hidden;
+}
+
+.subcontent{
+    width: 300px;
+    height: 200px;
+    background: yellow;
+    float: left;
+    margin-right: 33px;
+}
+
+/*  MENU */
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    float: left;
+    margin-right: 30px;
+}

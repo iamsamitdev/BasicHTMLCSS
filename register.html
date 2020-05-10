@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+
+<body>
+    <h1>Register free</h1>
+    <form action="">
+
+        <fieldset>
+            <legend>Step 1</legend>
+            <label for="firstname">First name:</label>
+            <input type="text" id="firstname" name="firstname"><br>
+
+            <label for="lastname">Last name:</label>
+            <input type="text" id="lastname" name="lastname"><br>
+
+            <label for="sex">Sex:</label>
+            <input type="radio" id="sex" name="sex" value="male"> Male
+            <input type="radio" id="sex" name="sex" value="female"> Female<br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Step 2</legend>
+            <label for="province">Province:</label>
+            <select name="province" id="province">
+                <option value="bangkok">Bangkok</option>
+                <option value="nontaburi">Nontaburi</option>
+                <option value="rayong" selected>Rayong</option>
+            </select><br>
+
+            <label for="hobby">Hobby:</label>
+            <input type="checkbox" name="hobby1" id="hobby1"> Eat
+            <input type="checkbox" name="hobby2" id="hobby2"> Sleep
+            <input type="checkbox" name="hobby3" id="hobby3"> Code<br>
+
+            <label for="address">Address:</label>
+            <textarea name="" id="" cols="30" rows="3"></textarea><br>
+        </fieldset>
+
+        <input type="submit" value="Submit" name="submit">
+        <input type="reset" value="Reset" name="reset">
+        <input type="button" value="Button" name="button">
+        <button type="button">None button</button>
+    </form>
+</body>
+
+</html>
