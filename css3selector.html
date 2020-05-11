@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Selector</title>
+    <style>
+
+        div[id^="nav"]{
+            /* background-color: yellow; */
+        }
+
+        div[id$="primary"]{
+            /* background-color: brown; */
+        }
+
+        div[id*="content"]{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav-primary">D1</div>
+    <div id="content-primary">D2</div>
+    <div id="content-secondary">D3</div>
+    <div id="tertiary-content">D4</div>
+    <div id="nav-secondary">D5</div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body{
+    background-color: coral;
+}
+
+main{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: dodgerblue;
+}
+
+header{
+    height: 100px;
+    background-color: chartreuse;
+}
+
+nav{
+    height: 50px;
+    background-color: blueviolet;
+}
+
+section#content{
+    overflow: hidden;
+}
+
+section#content section{
+    background-color: deeppink;
+    width: 700px;
+    float: left;
+}
+
+section#content section section{
+    height: 150px;
+    background-color: aqua;
+}
+
+section#content section article{
+    height: 150px;
+    background-color: cornflowerblue;
+}
+
+aside{
+    width: 300px;
+    height: 300px;
+    float:right;
+    background-color: goldenrod;
+}
+
+footer{
+    height: 150px;
+    background-color: brown;
+}

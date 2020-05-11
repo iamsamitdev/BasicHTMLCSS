@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Media Queries</title>
+    <style>
+
+        header{
+            height: 200px;
+        }
+        /*** สร้าง CSS3 Media Queries 3 Break point ***/
+        /* Mobile size */
+        @media screen and (min-width: 320px) {
+            body{
+                background-color: darkgreen;
+            }
+        }
+
+        /* Tablet size */
+        @media screen and (min-width: 768px) {
+            body{
+                background-color: orange;
+            }
+        }
+
+        /* Desktop size */
+        @media screen and (min-width: 1170px) {
+            body{
+                background-color: blue;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, voluptate dicta numquam voluptatum tempora eius fugiat voluptatem inventore esse voluptas velit. Perspiciatis officiis, eaque consectetur iusto ratione magnam non nobis.
+    </div>
+</body>
+</html>
